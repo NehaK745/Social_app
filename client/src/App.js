@@ -48,7 +48,7 @@ function App() {
           <div className="navbar">
             <div className="links">
               <Link to="/"> Home</Link>
-              <Link to="/createpost"> Create A Post</Link>
+              <Link to="/createpost"> Create Post</Link>
               {!authState.status && (
                 <>
                   <Link to="/login"> Login</Link>
